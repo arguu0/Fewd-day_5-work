@@ -1,0 +1,143 @@
+#container {
+    margin:0 auto;
+    width: 600px;
+    height: 700px;
+    background: #ffffff;
+    position: relative;
+    border: 1px solid grey;
+}
+
+#header {
+    background: #cccccc;
+    padding: 20px;
+}
+
+#header h1 {
+    margin: 0;
+    text-align: right;  /*move header to right*/
+}
+
+#navigation {
+    float: right;
+    width: 600px;
+    background: #333333;
+}
+
+#navigation ul {
+    margin: 0;
+    padding: 0;
+    float: right; /*move list of nav to right*/
+}
+
+#navigation ul li{
+    list-style-type: none;
+    float: left; /*navi text in order*/
+}
+
+#navigation li a{
+    display: block;
+    padding: 5px 10px;
+    color: #fff;
+    text-decoration: none; /*remove underlined*/
+    border-left: 1px solid #ffffff;  /*make navigation have border*/
+}
+
+#navigation li a:hover{
+    background: rgb(122, 122, 122); /*change color when mouse hover*/
+}
+
+#navigation a.active{
+    background-color: rgb(122, 122, 122); 
+}
+
+#content {
+    clear: right;
+}
+
+#content h2 {
+    color: #000000;
+    font-size: 150%;
+    margin: 0 0 10px 10px;
+    padding: 10px;
+}
+
+#content p {
+    text-align: justify;
+    padding: 10px;
+}
+
+#image img {
+    width: 100%;
+}
+
+#footer {
+    background: #cccccc;
+    text-align: left;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+    
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+}
+
+/* button css from about page */
+#bookbtn {
+    padding: 10px;
+}
+
+#bookbtn a {
+    text-decoration: none;
+    color: black;
+}
+/* end of button css */
+
+#forlinks {
+    text-decoration: none;
+    color: black;
+}
+
+#forlinks:hover {
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+}
+
+
+/* CSS for booking form */
+#bkform {
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 0 50px;
+    box-shadow: 0px 2px 5px 2px #6e6e6e;
+}
+
+#bkform input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#bkform select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#bkform [type=submit] {
+    background: #333;
+    color: white;
+}
+
+#bkform [type=submit]:hover {
+    background: rgb(122, 122, 122);
+}
+/* End of Css booking form */
